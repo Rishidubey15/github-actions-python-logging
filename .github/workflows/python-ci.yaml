@@ -9,8 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    retention-days: 14  # Keep logs for 14 days
-
+    
     steps:
       - uses: actions/checkout@v3
 
